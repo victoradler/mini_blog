@@ -1,0 +1,128 @@
+body {
+  background-color: #f6fcff;
+  padding: 0;
+  margin: o;
+  font-family: "Montserrat", sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+a,
+nav button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  transition: 0.4s;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+nav button:hover {
+  color: #bbb;
+}
+
+/**/
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+label span {
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  text-align: left;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.8em 0;
+  background-color: transparent;
+}
+
+
+.container-post {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  max-width: 500px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 6px rgb(51 51 51 / 25%);
+  background-color: #fff;
+  padding: 0 4rem;
+}
+
+.btn {
+  background-color: #393939;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 120px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+.btn.btn-dark {
+  background-color: #000;
+  border-radius: 0;
+}
+
+.btn.btn-outline :hover {
+  background-color: #afafaf;
+  border: 1px solid #000;
+}
+
+.btn.btn-danger:hover {
+  background-color: #dc3545;
+}
+
+.btn:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.btn-dashboard {
+  width: 161px !important;
+  height: 40px !important;
+  border-radius: 4px;
+}
+
+button[disabled] {
+  background-color: #aaa;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container .error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
