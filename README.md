@@ -15,7 +15,6 @@ Configuração
 Para executar este projeto em sua máquina local, siga as etapas abaixo:
 
 ## git clone `
-## cd nome-do-projeto
 ## `npm install`
 ### `npm start`
 
