@@ -33,7 +33,7 @@ REACT_APP_FIREBASE_APP_ID=seu-app-id
 Inicie o servidor de desenvolvimento:
 ### `npm start`
 
-Dependências
+## Dependências
 Este projeto utiliza as seguintes dependências:
 
 React: framework JavaScript para construção de interfaces de usuário.
@@ -41,7 +41,7 @@ Firebase: plataforma de desenvolvimento de aplicativos web.
 react-router-dom: para gerenciar rotas no aplicativo React.
 bootstrap: para construção do layout
 
-Contribuição
+## Contribuição
 Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para criar um fork e enviar uma solicitação de pull com suas alterações.
 
 
